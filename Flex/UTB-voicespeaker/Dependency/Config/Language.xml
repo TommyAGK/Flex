@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--
+
+For å legge till "effekter" bruk @wav(filnavnet.wav), filen _MÅ_ ligge i "Sounds" under "Dependency"
+Du må starte applikasjonen på nytt for å laste denne konfigurasjonen.
+
+-->
+
+
+<!--
+<DayStart>Happy to see you again, @user</DayStart>
+<LunchStart>Have a pleasant meal.</LunchStart>
+<LunchEnd>Welcome back @user</LunchEnd>
+<DayEnd>Have a nice evening.</DayEnd>
+<WeekEnd>Have a nice weekend, take good care.</WeekEnd>
+<ErrorFlex>I'm sorry, @user. I'm afraid I can't do that.</ErrorFlex>
+<BufferTime>I'm sorry, @user. I'm afraid I can't do that.</BufferTime>
+<DoubleLogin>Just what do you think you're doing, @user?</DoubleLogin>
+<TooSoon>I'm sorry, @user. I'm afraid I can't do that.</TooSoon>
+<NoEntryThisHour>@user, this conversation can serve no purpose anymore. Goodbye.</NoEntryThisHour>
+<UnExpectedError9000>This mission is too important for me to allow you to jeopardize it.</UnExpectedError9000>
+-->
+
+<LanguageLib> <!-- Fredrik Andersson -->
+  <Language lang="English">
+    <Lang>English</Lang>
+    <DayStart>Happy to see you again, @user</DayStart>
+    <LunchStart>Have a pleasant meal.</LunchStart>
+    <LunchEnd>Welcome back @user</LunchEnd>
+    <DayEnd>Have a nice evening.</DayEnd>
+    <WeekEnd>Have a nice weekend, take good care.</WeekEnd>
+    <ErrorFlex>I'm sorry, @user. I'm afraid I can't do that.</ErrorFlex>
+    <BufferTime>I'm sorry, @user. I'm afraid I can't do that.</BufferTime>
+    <DoubleLogin>Just what do you think you're doing, @user?</DoubleLogin>
+    <DoubleLunch>You are no hobbit, only one lunch @user</DoubleLunch>
+    <TooSoon>I'm sorry, @user. I'm afraid I can't do that.</TooSoon>
+    <NoEntryThisHour>@user, this conversation can serve no purpose anymore. Goodbye.</NoEntryThisHour>
+    <UnExpectedError9000>This mission is too important for me to allow you to jeopardize it.</UnExpectedError9000>
+
+    <LunchComment>Went to lunch</LunchComment>
+    <SignOutComment>Signed out</SignOutComment>
+  </Language>
+
+  <Language lang="Finish"> <!--Paul Mikael Siippainen  -->
+    <Lang>Finish</Lang>
+    <DayStart>Hyvää huomenta @user</DayStart>
+    <LunchStart>Hyvää ruokahalua @user</LunchStart>
+    <LunchEnd>Tervetuloa takaisin lounaalta</LunchEnd>
+    <DayEnd>Päivän työt tehty</DayEnd>
+    <WeekEnd>Hyvää viikonloppua</WeekEnd>
+    <ErrorFlex>Kirjautuminen epäonnistui. Tarkista Flex.</ErrorFlex>
+    <BufferTime>Sisäänkirjautuminen ei onnistu lähellä lounasaikaa</BufferTime>
+    <DoubleLogin>Kaksoiskirjautuminen ei onnistu</DoubleLogin>
+    <DoubleLunch>You are no hobbit, only one lunch @user</DoubleLunch>
+    <TooSoon>Ole hyvä ja odota lounasaikaan</TooSoon>
+    <NoEntryThisHour>Tähän aikaan kirjauduttava webbi-sivun kautta</NoEntryThisHour>
+    <UnExpectedError9000>Odottamaton häiriö</UnExpectedError9000>    
+    
+    <LunchComment>Lounas</LunchComment>
+    <SignOutComment>Lähtenyt tältäpäivältä</SignOutComment>
+  </Language>
+
+
+  <Language lang="Norwegian">
+    <Lang>Norwegian</Lang>
+<!--    <DayStart>@user@olufkom</DayStart>
+    <LunchStart>Kos deg med maten @user</LunchStart>
+    <LunchEnd>Du overlevde denne gang og?</LunchEnd>
+    -->
+    <DayStart>@user@wav(Oluf.wav)</DayStart>
+    <LunchStart>@wav(Mario Jump.wav)Da er det Lunsjtid @user</LunchStart>
+    <LunchEnd>@wav(Mario Extra Life.wav)Lunsj ferdig nå @user</LunchEnd>
+    <DayEnd>Jaha, du nsker ådra hjem @user</DayEnd>
+    <WeekEnd>Hello @wav(Out of Bubble Gum.wav) . Ohh skith @wav(Mario Jump.wav) @wav(Mario Jump.wav) @wav(Mario Jump.wav) @wav(Pacman.wav)</WeekEnd>
+    <ErrorFlex>Innloggingen ble ikke vellykket. Vennligst sjekk din Web Flex konto</ErrorFlex>
+    <BufferTime>For tidlig for og dra på lunsj</BufferTime>
+    <DoubleLogin>Du kan ikke logge inn to ganger</DoubleLogin>
+    <DoubleLunch>You are no hobbit, only one lunch @user</DoubleLunch>
+    <TooSoon>Rolig nå</TooSoon>
+    <NoEntryThisHour>Du kan dessverre ikke være her mer i dag</NoEntryThisHour>
+    <UnExpectedError9000>@wav(clown horn.wav)Den så vi ikke komme @wav(Oluf.wav)</UnExpectedError9000>
+    
+    <LunchComment>Lunsj</LunchComment>
+    <SignOutComment>Gått for dagen</SignOutComment>
+  </Language>
+
+
+  <Language lang="Russian"> <!-- Konstantin (4475403239) edit, soon to be only audio, because yay-->
+    <Lang>Russian</Lang>
+    <DayStart>Доброе утро @user</DayStart>
+    <LunchStart>Приятного аппетита @user</LunchStart>
+    <LunchEnd>Добро пожаловать, сконцентрируйся на учёбе, приятного дня</LunchEnd>
+    <DayEnd>Приятного отдыха Константин Викторович </DayEnd>
+    <WeekEnd>Замечательных вам выходных, Константин </WeekEnd>
+    <ErrorFlex>Вход не выполнен. Какие то трудности.</ErrorFlex>
+    <BufferTime>Простите уважаемый Константин, я не могу принять ваш запрос</BufferTime>
+    <DoubleLogin>Вы не можете авторизоваться дважды, окей, отмена </DoubleLogin>
+    <DoubleLunch>You are no hobbit, only one lunch @user</DoubleLunch>
+    <TooSoon>Обождите до запуска</TooSoon>
+    <NoEntryThisHour>Необходимо с сайта отметить время</NoEntryThisHour>
+    <UnExpectedError9000>Паника системы</UnExpectedError9000>
+   
+    <LunchComment>Lunch</LunchComment>
+    <SignOutComment>Gått för dagen</SignOutComment>
+  </Language>
+
+  
+<!-- 
+Andreas:
+<DayStart>Morrn</DayStart>
+<LunchStart>Gå ät</LunchStart>
+<LunchEnd>Tja</LunchEnd>
+<DayEnd>Syns</DayEnd>
+<WeekEnd>Go helg</WeekEnd>
+<ErrorFlex>Du, kolla Flex</ErrorFlex>
+<BufferTime>Nä, det är ju snart mat</BufferTime>
+<DoubleLogin>Jo, jag vet</DoubleLogin>
+<TooSoon>Vänta</TooSoon>
+<NoEntryThisHour>Använd flex</NoEntryThisHour>
+<UnExpectedError9000>Allt är skit</UnExpectedError9000>
+-->
+  <Language lang="Swedish"> <!-- Andreas Wilhelmsson -->
+    <Lang>Swedish</Lang>
+    <DayStart>God Morgon @user</DayStart>
+    <LunchStart>Tid for lunch @user</LunchStart>
+    <LunchEnd>Ferdig med lunch @user</LunchEnd>
+    <DayEnd>ha en riktig fin dag @user</DayEnd>
+    <WeekEnd>Go helg @user</WeekEnd>
+    <ErrorFlex>Nej, du måste kolla Flex</ErrorFlex>
+    <BufferTime>Nä, det är ju snart mat</BufferTime>
+    <DoubleLogin>Du kan inte logga in två ganger</DoubleLogin>
+    <DoubleLunch>You are no hobbit, only one lunch @user</DoubleLunch>
+    <TooSoon>Vänta, lunchen är klockan 10:30</TooSoon>
+    <NoEntryThisHour>Använd flex</NoEntryThisHour>
+    <UnExpectedError9000>Oj, det blev fel, fråga Reidar</UnExpectedError9000>
+    
+    <LunchComment>Lunch</LunchComment>
+    <SignOutComment>Gått för dagen</SignOutComment>
+  </Language>
+</LanguageLib>

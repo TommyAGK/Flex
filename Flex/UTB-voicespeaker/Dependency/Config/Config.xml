@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<DataBase>
+  <Server category='Students'>
+      <address>172.16.0.40</address> <!-- 172.16.16.40 <- student network IP-->
+      <sqldirectory>sql2k12</sqldirectory>
+      <table>Students</table>
+      <dbuser>flax</dbuser>
+      <dbpass>2.0</dbpass>
+  </Server>
+  <server category='Teacher'>
+      <address>172.16.0.40 </address>
+      <sqldirectory>sql2k12</sqldirectory>
+      <table>Teachers</table>
+      <dbuser>flax</dbuser>
+      <dbpass>2.0</dbpass>
+  </server>
+</DataBase>
