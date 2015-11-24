@@ -29,9 +29,9 @@ namespace UTB_voicespeaker
 			private static void Main(string[] args)
 				{
 
-					LogThings.PurgeDebugLog(true);
+					//LogThings.PurgeDebugLog(true);
 					//Console.CursorVisible = false;
-					LogThings.Report(@"Program.cs", @"Program started");
+					////LogThings.Report(@"Program.cs", @"Program started");
 					if (args.Length != 0)
 						{
 							if (args[0].ToUpper().Equals(@"-EGG"))
@@ -53,21 +53,21 @@ namespace UTB_voicespeaker
 								{
 									Logging = true;
 								}
-							LogThings.Report(@"Program.cs", @"Called with argument: " + args[0]);
+							////LogThings.Report(@"Program.cs", @"Called with argument: " + args[0]);
 						}
 					SelvSkryt();
-					LogThings.Report(@"Program.cs", @"Starting DataReader");
+					////LogThings.Report(@"Program.cs", @"Starting DataReader");
 					DataReader = new XmlDataReader(XmlDataReader.ConfigType.Students, RdReader);
 					DataReaderLang = new XmlDataReader();
-					LogThings.Report(@"Program.cs", @"Reading Languages from XML based on DataReader");
+					////LogThings.Report(@"Program.cs", @"Reading Languages from XML based on DataReader");
 					Langs = DataReaderLang.GetLangs(); // Read all lang words.
 
 					while (Configure == null)
 						{
-						LogThings.Report(@"Program.cs", @"Loading config in relation to databases");
+						//LogThings.Report(@"Program.cs", @"Loading config in relation to databases");
 							Configure = DataReader.GetConfig();
 						}
-					LogThings.Report(@"Program.cs", @"Main loop begins");
+					//LogThings.Report(@"Program.cs", @"Main loop begins");
 					while (true)
 						{
 							//RdReader.DetectComPort();
@@ -80,12 +80,12 @@ namespace UTB_voicespeaker
 							// ReSharper disable once ConditionIsAlwaysTrueOrFalse
 							if (Console.ReadKey().Key == ConsoleKey.Escape)
 								{
-								LogThings.Report(@"Program.cs", @"Escape captured, ending program");
+								//LogThings.Report(@"Program.cs", @"Escape captured, ending program");
 									Console.ResetColor();
 									return;
 								}
 						}
-					LogThings.Report(@"Program.cs", @"Reading data from database");
+					//LogThings.Report(@"Program.cs", @"Reading data from database");
 					Data = Mngr.GetData();
 				}
 
